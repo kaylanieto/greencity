@@ -1,0 +1,219 @@
+
+   <div id="team" class="team">
+        <div class="container">
+            <div class="row">
+                <h2>Meet our team</h2>
+             <p> In 1998, Bob the Builder, Handy Manny, Wendy, and Kelly founded this company and provided millions with the bests!</p>
+                <div class="inline">
+                <div class="col-lg-3 col-md-3">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Bob_the_builder.jpg/220px-Bob_the_builder.jpg" style="height:200px;" class="img-circle">
+                    <h4>Bob the Builder</h4>
+                    <strong>CEO and Co-founder</strong>
+                    <p>Bob the Builder digs, hauls, and builds! He followed the footsteps of his father, who is a well-known builder. </p>
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                </div>
+    
+                <div class="col-lg-3 col-md-3">
+                    <img src="https://vignette.wikia.nocookie.net/disney/images/e/e1/Manny_Earth_Day02.png/revision/latest?cb=20130425190246" style="height:200px;" class="img-circle">
+                
+                    <h4>Handy Manny</h4>
+                    <strong>CEO and Co-founder</strong>
+    
+                    <p>With hands-on tools, Handy Manny fixes any inconveniences with a matter of seconds! </p><br>
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                </div>
+    
+                <div class="col-lg-3 col-md-3">
+                    <img src="http://bento.cdn.pbs.org/hostedbento-prod/filer_public/PBS%20Parents%20Bob%20the%20Builder/images/WendyCharacterProfile_120px.jpg" style="height:200px;" class="img-circle">
+                    <h4>Wendy</h4>
+                    <strong>CEO and Co-founder</strong>
+                    <p>With a tenacious attitude, Wendy builds and constructs! She is well known! </p><br>
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                </div>
+    
+                <div class="col-lg-3 col-md-3">
+                    <img src="https://i.pinimg.com/originals/81/a2/10/81a2100fabb478135b5c23033c47847e.jpg" style="height:200px;" class="img-circle">
+                    <h4>Kelly</h4>
+                    <strong>CEO and Co-founder</strong>
+                    <p> Kelly, who has been working with tools since a young age, has been well-known for her work!</p><br>
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+     </div>
+    <!--- End Team -->
+       
+    <!--- Clients -->
+    
+    <div id="client" class="clients">
+        <div class="container">
+            <div class="row">
+                <b><h2>Trusted by:</h2></b>
+                <p>These companies are partnered together to supply the consumers with all the things they need.</p><br>
+                <div class="col-lg-3 col-md-3">
+                    <ul>
+                      <li><img src="https://www.philips.com/consumerfiles/newscenter/main/standard/resources/corporate/press/2013/Brand/Philips-Shield.jpg"></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <ul>
+                      <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/TheHomeDepot.svg/1200px-TheHomeDepot.svg.png"></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <ul>
+                      <li><img src="https://drncvpyikhjv3.cloudfront.net/sites/93/2015/04/22120946/benjamin-moore-ace-logo.jpg"></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <ul>
+                      <li><img src="https://pbs.twimg.com/profile_images/461877115663552513/uGdYfwOo_400x400.png"></li>
+                    </ul>  
+                </div>
+            </div>
+        </div>
+    </div>
+    
+  CSS
+  
+  
+    
+    
+/*TEAM*/
+
+.team {
+    
+    padding: 50px 0 80px;
+    text-align: center;
+}
+.team h4,
+.team p,
+.team strong
+{ font-family:"PT Sans Narrow", Arial, sans-serif;
+   
+    color: #4c4c4c;
+}
+
+.team h2
+ {  margin: 20px 0 20px;
+    color: #4c4c4c;
+}
+.team strong {
+    font-size:18px;
+    font-family:"PT Sans Narrow", Arial, sans-serif;
+}
+.team h4{
+    font-size:23px;
+    font-family:"PT Sans Narrow", Arial, sans-serif;
+}
+
+.team p {
+    font-size:15px;
+    color: #737373;
+}
+
+.team img {
+    
+    height: 150px;
+    width: 150px;
+    margin-top: 80px;
+}
+
+
+.team i {
+    
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 50%;
+    background-color: #002e7a;
+    color: #fff;
+}
+
+.team a:hover i {
+    
+    background-color: #709963;
+}
+
+
+/*CLIENTS*/
+
+.clients {
+    
+    padding: 50px 0 80px;
+    background-color: #3399ff;
+    text-align: center;
+    color: #fff;
+    font-family:"PT Sans Narrow", Arial, sans-serif;
+    height:700px;
+}
+
+.client h2 {
+    
+    color: #5e5e5e;
+    font-size:50px;
+    font-family:"PT Sans Narrow", Arial, sans-serif
+    ;
+    
+}
+
+.clients p {
+    font-size:20px;
+    padding-bottom: 8px;
+    font-family:"PT Sans Narrow", Arial, sans-serif
+    ;
+}
+
+.clients img {
+    
+    width: 200px;
+    height:225px;
+    cursor: pointer;
+    margin: 40px 0;
+    transition: all 500ms ease-in-out;
+     opacity: 0.8;
+}
+
+
+.clients li:hover img {
+    
+    opacity: 1;
+}
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
