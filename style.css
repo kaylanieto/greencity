@@ -41,5 +41,14 @@ display: block;
     opacity: .3;
 }
 
+/*Footer*/
 
+.footer {
+  background-color: #000;
+  position: relative;
+  height: 100px;
+  margin-top: 10px;
+  
+}
 
+/*Footer End*/
