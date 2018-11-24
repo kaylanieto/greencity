@@ -63,22 +63,29 @@ a{
     cursor: pointer;
     width: 35%;
     position: relative;
+    right:5px;
    /* position: absolute, static, relative
     to */
 }
-
+.button1 {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 35%;
+    position: relative;
+    right:10px;
+}
 .button:hover {
     background-color: #186038;
 }
+.button1:hover {
+    background-color: #186038;
+}
 img{
-    height:400px;
+    height:380px;
 }
 
-/*Footer*/
-
-.mahdifooter {
-    background-color: #000;
-    height: 200px;
-}
-
-/*Footer*/

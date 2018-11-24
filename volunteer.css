@@ -1,41 +1,51 @@
 /*Navbar*/
+
 .navbar-default {
-    background-color: #F8F8F8;
-    border-color: #fff;
+  background-color: #F8F8F8;
+  border-color: #fff;
 }
+
 .dropdown-menu li:hover .sub-menu {
   visibility: visible;
 }
 
 .dropdown:hover .dropdown-menu {
-display: block;
+  display: block;
 }
+
 body {
   font-family: Arial;
-  background:white;
+  background: white;
+  color: black;
 }
-.slideshow-container{
-    position:relative;
-    margin:auto;
+
+.slideshow-container {
+  position: relative;
+  margin: auto;
 }
-.myimages img{
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    width:320px;
-    height:250px;
-    
+
+.myimages img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+  height: 250px;
+
 }
-  
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 0px)  {
-  .leftcolumn, .rightcolumn { 
+
+@media screen and (max-width: 0px) {
+  .leftcolumn,
+  .rightcolumn {
     width: 70%;
     padding: 0;
   }
 }
-@media screen and (min-width: 600px)  { .leftcolumn, .rightcolumn { 
+
+@media screen and (min-width: 600px) {
+  .leftcolumn,
+  .rightcolumn {
     width: 70%;
     padding: 0;
   }

@@ -11,8 +11,10 @@
 display: block;
 }
 /*Home Page*/
+
 .Home{
   color:black;
+  
 }
 .centered {
   position: absolute;
@@ -45,9 +47,10 @@ display: block;
 
 .footer {
   background-color: #000;
-  position: relative;
+  position: absolute;
   height: 100px;
-  margin-top: 10px;
+  bottom:0px;
+  width:100%;
   
 }
 
