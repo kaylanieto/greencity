@@ -1,6 +1,11 @@
 .ecoimg1 {
-    position: absolute;
-    top: 50%;
-    height: 30%;
-    width: 30%;
+    position: relative;
+    height: 25%;
+    width: 25%;
+    text-align: center;
+}
+
+.title {
+    position: relative;
+    text-align: center;
 }

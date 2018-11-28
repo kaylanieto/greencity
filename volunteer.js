@@ -1,5 +1,6 @@
 var slideIndex = 0;
 showSlides();
+
 function showSlides() {
     var i;
     var slides = document.getElementsByClassName("myimages");
@@ -14,4 +15,12 @@ function showSlides() {
     slides[slideIndex].style.display = "block";
     setTimeout(showSlides, 3000);
 
+}
+
+function openForm() {
+    document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+    document.getElementById("myForm").style.display = "none";
 }

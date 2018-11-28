@@ -12,8 +12,9 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="volunteer.css">
 </head>
+
 <body>
     <div links>
         <!--jquery-->
@@ -24,13 +25,12 @@
             /*global WOW*/
             new WOW().init();
         </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <!--bootstrap-->
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
     </div>
-    
     <!--Navbar-->
-    
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -58,15 +58,213 @@
                 </ul>
             </ul>
         </div>
-    </nav>      
-    
-    <!--Navbar End-->
+    </nav>
+    <!-- Header -->
+    <header class="w3-container w3-center w3-padding-32">
+        <h1><b>Attend a Community Event</b></h1>
+    </header>
+    <!-- Grid -->
+    <div class="w3-row">
 
-    <!--Home page-->
-    <div class="Home">
-    
-        <div class="centered">
-           <br><h3>Green City</h3><br>
-            <p>(Filler Text!!)Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pretium sit amet justo in tempus. Curabitur posuere turpis augue, et rhoncus nisl accumsan eu. Sed a ipsum lectus. In sodales diam vel sapien sollicitudin, feugiat porta dui tempus. Nulla vitae tincidunt ex. Cras euismod luctus porta. Donec nec fermentum erat. Aenean rhoncus non dolor tempor molestie. Donec et interdum nulla, eu lacinia lectus. Maecenas tempus enim eget dignissim porta. Nullam aliquet nec erat ac bibendum. Proin lacinia, odio eget laoreet feugiat, turpis urna congue ex, nec accumsan sapien lacus ut libero. Nam rhoncus tristique nisi efficitur tincidunt.</p>
+        <!--  entries -->
+        <div class="w3-col l8 s12">
+            <!-- Under the Stars -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <img src="https://img.purch.com/w/660/aHR0cDovL3d3dy5zcGFjZS5jb20vaW1hZ2VzL2kvMDAwLzA2MC8xOTQvb3JpZ2luYWwvSkpCXzc0NzktU291dGgtVGF1cmlkcy1Bc3NhdGVhZ3VlLTIwMTYtd2F0ZXJtYXJrLmpwZw==" style="width:100%;height:100%">
+                <div class="w3-container">
+                    <h3><b>Under The Stars</b></h3>
+                    <h5>Date <span class="w3-opacity">January 23rd, 2019</span></h5>
+                </div>
+
+                <div class="w3-container">
+                    <p>Save the date for our first fundraising event of 2019! Come join us and spend a night under the stars! This event costs $40 and 50% of the procedes will go to saving the enviorment in the city we live in!This event will take place
+                        at <b>Fort Greene Park</b></p>
+                    <div class="w3-row">
+                        <div class="w3-col m8 s12">
+                            <p>
+                                <button class="w3-button w3-padding-large w3-white w3-border" onclick="openForm()"><b>Register »</b></button></p>
+                            <div class="form-popup" id="myForm">
+                                <form action="/action_page.php" class="form-container">
+                                    <h1>Attend event</h1>
+
+                                    <label for="text"><b>Name</b></label>
+                                    <input type="text" placeholder="Enter Full Name" name="text" required>
+                                    <label for="email"><b>Email</b></label>
+                                    <input type="text" placeholder="Enter Email" name="email" required>
+
+                                    <label for="text"><b>Check any event you are interested in</b></label><br>
+                                    <input type="checkbox">Night Under Stars<br>
+                                    <input type="checkbox">Night Under Stars
+
+                                    <button type="button" onclick="location.href='submit.html'" class="btn">Submit</button>
+                                    <button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+                                </form>
+                            </div>
+
+                        </div>
+                        <div class=" w3-col m4 w3-hide-small ">
+                            <p><span class="w3-padding-large w3-right "><b>People Attending</b> <span class="w3-tag ">47</span></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--World Water Day 5k-->
+            <div class="w3-card-4 w3-margin w3-white ">
+                <img src="https://myftbend.imgix.net/2018/04/World-Water-Day-5K-katy-tx-2018.jpg?auto=compress%2Cformat&fit=scale&h=683&ixlib=php-1.2.1&w=1024&wpsize=large " alt="Nature " style="width:100%;height:80% ">
+                <div class="w3-container ">
+                    <h3><b>World Water Day 5k</b></h3>
+                    <h5>Date <span class="w3-opacity ">March 22nd, 2019</span></h5>
+                </div>
+
+                <div class="w3-container ">
+                    <p>To promote the importance of freshwater, Green City is teaming up with World Water Day to host our annual 5k walk/run. This walk will be held at <b>Central Park</b> and this sign up form is to volunteer.<br> Volunteers set up this
+                        event, hand out various items during the event, record times, and cheer people on as they walk or run. Sign up below</p>
+                    <div class="w3-row ">
+                        <div class="w3-col m8 s12 ">
+                            <p><a href="https://goo.gl/forms/rrPnsLwjdUMgSvzy1 " class="w3-button w3-padding-large w3-white w3-border "><b>Sign Up »</b></a></p>
+                        </div>
+                        <div class="w3-col m4 w3-hide-small ">
+                            <p><span class="w3-padding-large w3-right "><b>People Attending</b> <span class="w3-tag ">130</span></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Beach Clean Up -->
+            <div class="w3-card-4 w3-margin w3-white ">
+                <img src="http://sayhitosustainability.com/wp-content/uploads/ICCD_Hero_Image_Beach_Cleanup_1440x550-1024x437-1024x436.jpeg " alt="Nature " style="width:100%;height:80% ">
+                <div class="w3-container ">
+                    <h3><b>Beach Clean Up</b></h3>
+                    <h5>Date <span class="w3-opacity ">April 15th, 2019</span></h5>
+                </div>
+
+                <div class="w3-container ">
+                    <p>Sign-up to participate in a beach clean up sponsored by Green City. The clean up will take place at <b>Coney Island</b> and will begin at 9am.</p>
+                    <div class="w3-row ">
+                        <div class="w3-col m8 s12 ">
+                            <p><a href="https://goo.gl/forms/rrPnsLwjdUMgSvzy1 " class="w3-button w3-padding-large w3-white w3-border "><b>Sign Up »</b></a></p>
+                        </div>
+                        <div class="w3-col m4 w3-hide-small ">
+                            <p><span class="w3-padding-large w3-right "><b>People Attending</b> <span class="w3-tag ">58</span></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Arbor Day -->
+            <div class="w3-card-4 w3-margin w3-white ">
+                <img src="http://sandptreeservice.com/wp-content/uploads/2018/03/Tree-Planting-Tips-for-Beginners-Tree-Maintenance-in-Dallas-and-Fort-Worth-TX-Area-780x457.jpg " style="width:100%;height:70% ">
+                <div class="w3-container ">
+                    <h3><b>Arbor Day Tree Planting</b></h3>
+                    <h5>Date <span class="w3-opacity ">April 26th, 2019</span></h5>
+                </div>
+
+                <div class="w3-container ">
+                    <p>To celebrate world Arbor Day in connection with the Arbor Day Foundation, join us at <b>Central Park</b> on April 26th to plant trees throughout the park.</p>
+                    <div class="w3-row ">
+                        <div class="w3-col m8 s12 ">
+                            <p><a href="https://goo.gl/forms/rrPnsLwjdUMgSvzy1 " class="w3-button w3-padding-large w3-white w3-border "><b>Sign Up »</b></a></p>
+                        </div>
+                        <div class="w3-col m4 w3-hide-small ">
+                            <p><span class="w3-padding-large w3-right "><b>People Attending</b> <span class="w3-tag ">34</span></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- END ENTRIES -->
         </div>
+
+        <!-- Slideshow -->
+        <div class="w3-col l4 ">
+            <!-- About Card -->
+            <div class="w3-card w3-margin w3-margin-top ">
+                <div class="w3-container w3-white ">
+                    <h4><b>Highlights</b></h4>
+                    <div class="slideshow-container ">
+                        <div class="myimages ">
+                            <img src="https://www.kink.fm/wp-content/uploads/2016/08/think-green.jpg ">
+                        </div>
+                        <div class="myimages ">
+                            <img src="https://grandhavenchamber.org/wp-content/uploads/2013/11/family-fun-day.jpg ">
+                        </div>
+                        <div class="myimages ">
+                            <img src="http://beaches.lacounty.gov/wp-content/uploads/2016/10/BeachCleaning.jpg ">
+                        </div>
+                        <div class="myimages ">
+                            <img src="https://cdns.abclocal.go.com/content/wls/images/cms/automation/images/210254_1280x720.jpg ">
+                        </div>
+                        <div class="myimages ">
+                            <img src="https://cdns.abclocal.go.com/content/wls/images/cms/automation/images/210254_1280x720.jpg ">
+                        </div>
+                        <div class="myimages ">
+                            <img src="https://higherlogicdownload.s3.amazonaws.com/LSGF/1a633e06-f520-4c19-9646-d20e405c79f5/UploadedImages/Homepage_Images/goteam.jpg ">
+                        </div>
+                        <div class="myimages ">
+                            <img src="https://media.glassdoor.com/l/5a/3a/27/ed/beach-cleanup.jpg ">
+                        </div>
+                        <div class="myimages ">
+                            <img src="https://www.mountpleasantwow.com/wp-content/uploads/2015/09/is16-1435165784-43551-e1446659666420.jpeg ">
+                        </div>
+                        <div class="myimages ">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2FlggQ_4sjgnw6Img1kBgDwpSird4z7FJ0YMVpZicrNBM_G7E ">
+                        </div>
+                        <div class="myimages ">
+                            <img src="http://artsphere.org/wp-content/uploads/2012/11/group-kites-cabrini.jpg ">
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
+            </div>
+            <hr>
+
+            <!-- Posts -->
+            <div class="w3-card w3-margin ">
+                <div class="w3-container w3-padding ">
+                    <h4>Recent Events</h4>
+                </div>
+                <ul class="w3-ul w3-hoverable w3-white ">
+                    <li class="w3-padding-16 ">
+                        <img src="http://epmgaa.media.clients.ellingtoncms.com/img/croppedphotos/2013/08/28/People-Recycling-300x212_t580.jpg?8f1b5874916776826eb17d7e67de7278c987ca33 " alt="Image " class="w3-left w3-margin-right " style="width:70px ">
+                        <span class="w3-large ">America Recycles Day!</span><br>
+                        <span>November 15th</span>
+                    </li>
+                    <li class="w3-padding-16 ">
+                        <img src="https://www.epa.gov/sites/production/files/styles/medium/public/2018-08/english-int-web-banner-403x403-ad-square.jpg " alt="Image " class="w3-left w3-margin-right " style="width:70px ">
+                        <span class="w3-large ">Lead Poisoning Prevention Week Workshops</span><br>
+                        <span>October 21st - October 27th </span>
+                    </li>
+                    <li class="w3-padding-16 ">
+                        <img src="https://www.moveforhunger.org/wp-content/uploads/UniversityMovingAndStorage_FarmingtonHillsFoodDrive2016-1.jpg " alt="Image " class="w3-left w3-margin-right " style="width:70px ">
+                        <span class="w3-large ">World Food Day Collection</span><br>
+                        <span>October 16th</span><br>
+                    </li>
+                    <li class="w3-padding-16 w3-hide-medium w3-hide-small ">
+                        <img src="http://www.care-one.com/wp-content/uploads/2015/05/fire_prevent.jpg " alt="Image " class="w3-left w3-margin-right " style="width:70px ">
+                        <span class="w3-large ">National Fire Prevention Week Workshops </span><br>
+                        <span>October 9th - October 15th</span>
+                    </li>
+                </ul>
+            </div>
+            <!--Sign up -->
+            <div class="w3-card w3-margin ">
+                <div class="w3-container "><br>
+                    <p><a href="https://goo.gl/forms/rrPnsLwjdUMgSvzy1 " class="w3-button w3-padding-large w3-white w3-border "><b>  Click here to sign up for an upcoming event</b></a></p>
+                </div>
+            </div>
+
+
+            <!-- END GRID -->
+        </div><br>
+
+        <!-- END w3-content -->
     </div>
+
+    <!-- Footer -->
+
+    <script type="text/javascript " src="volunteer.js "></script>
+</body>
+
+</html>
