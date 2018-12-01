@@ -50,18 +50,43 @@ body {
     padding: 0;
   }
 }
+
+.donate {
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.donate button {
+  padding: 10px;
+  width: 100px;
+  margin: 5px;
+}
+
+.donate .btn:hover {
+  background-color: #428bca !important;
+  color: #fff !important;
+}
+
+.donate .form-control {
+  width: 330px;
+  padding: 10px;
+  margin: 5px;
+}
+
 /* FOOTER */
-.footer{
-    background-color: #fff;
-    margin-top: 20px;
+
+.footer {
+  background-color: #f8f8f8;
+  margin-top: 20px;
+
 }
 
-.footer .btn{
-    margin-top: 5px;
+.footer .btn {
+  margin-top: 5px;
 }
 
-.footer i{
-    font-size: 20px;
+.footer i {
+  font-size: 20px;
 }
 
 /* FOOTER END */

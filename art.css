@@ -28,3 +28,21 @@ a {
 a:hover {
     color: blue;
 }
+
+/* FOOTER */
+
+.footer {
+    background-color: #f8f8f8;
+    margin-top: 20px;
+
+}
+
+.footer .btn {
+    margin-top: 5px;
+}
+
+.footer i {
+    font-size: 20px;
+}
+
+/* FOOTER END */

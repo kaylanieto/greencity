@@ -20,6 +20,9 @@
 
 }
 
+
+
+
 .centered {
   position: absolute;
   top: 50%;
@@ -47,3 +50,34 @@
   height: auto;
   opacity: .3;
 }
+
+/*Contact*/
+
+.contact {
+  background-color: white;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.contact .message {
+  height: 100px;
+  margin-top: 5px;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #f8f8f8;
+  margin-top: 20px;
+
+}
+
+.footer .btn {
+  margin-top: 5px;
+}
+
+.footer i {
+  font-size: 20px;
+}
+
+/* FOOTER END */
