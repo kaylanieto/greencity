@@ -5,7 +5,38 @@
     text-align: center;
 }
 
+.ecoimg3 {
+    position: relative;
+    height: 25%;
+    width: 25%;
+    text-align: center;
+}
+
 .title {
     position: relative;
+}
+
+.container1 {
+    position: relative;
+    bottom: 0%;
+    padding: 2px;
+}
+
+.container2 {
+    position: relative;
+    bottom: 0%;
+    padding: 2px;
+}
+
+.container3 {
+    position: relative;
+    bottom: 0%;
+    padding: 2px;
+}
+
+.ecoimg2 {
+    position: relative;
+    height: 25%;
+    width: 25%;
     text-align: center;
 }

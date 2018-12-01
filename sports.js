@@ -1,4 +1,4 @@
-/*Third Slideshow*/
+/*Third Slideshow
 var slideIndex = 0;
 showSlides();
 
@@ -14,6 +14,7 @@ function showSlides() {
     slides[slideIndex].style.display = "block";
     setTimeout(showSlides, 4000);
 }
+*/
 
 /*Second Slideshow*/
 var slideIndex2 = 0;
@@ -32,7 +33,7 @@ function showSlides2() {
     setTimeout(showSlides2, 4000);
 }
 
-/*Third Slideshow*/
+/*First Slideshow*/
 var slideIndex3 = 0;
 showSlides3();
 
