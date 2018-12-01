@@ -1,0 +1,30 @@
+.eventsheading {
+    text-align: center;
+
+}
+
+.header {
+    background-color: #59d85e;
+    margin-top: -20px;
+    margin-bottom: -3px;
+}
+
+.headerwords {
+    font-size: 100px;
+}
+
+.hero {
+    background-color: #f8f8f8;
+}
+
+.hello {
+    text-align: center;
+}
+
+a {
+    color: #38a44c;
+}
+
+a:hover {
+    color: blue;
+}
