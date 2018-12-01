@@ -16,3 +16,15 @@
 .hero {
     background-color: #f8f8f8;
 }
+
+.hello {
+    text-align: center;
+}
+
+a {
+    color: #38a44c;
+}
+
+a:hover {
+    color: blue;
+}
