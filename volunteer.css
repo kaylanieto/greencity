@@ -1,7 +1,7 @@
 /*Navbar*/
 
 .navbar-default {
-  background-color: #F8F8F8;
+  background-color: #6eff98;
   border-color: #fff;
 }
 
@@ -12,6 +12,7 @@
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+
 
 body {
   font-family: Arial;
@@ -28,8 +29,9 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 320px;
-  height: 250px;
+  width: 350px;
+  height: 290px;
+  border: 1px;
 
 }
 
@@ -52,23 +54,27 @@ body {
 }
 
 .donate {
-  background-color: #fff;
-  margin-top: 20px;
+  position: relative;
+
 }
 
 .donate button {
-  padding: 10px;
-  width: 100px;
-  margin: 5px;
+  padding: 8px;
+  width: 80px;
+  margin: 6px;
+  background-color: black;
+  color: white;
+  text-align: center
 }
 
 .donate .btn:hover {
-  background-color: #428bca !important;
-  color: #fff !important;
+  background-color: green!important;
+  color: white !important;
+  border: 1px;
 }
 
 .donate .form-control {
-  width: 330px;
+  width: 280px;
   padding: 10px;
   margin: 5px;
 }
@@ -76,7 +82,7 @@ body {
 /* FOOTER */
 
 .footer {
-  background-color: #f8f8f8;
+  background-color: #6eff98;
   margin-top: 20px;
 
 }
